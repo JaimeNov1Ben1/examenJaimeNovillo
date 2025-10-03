@@ -1,0 +1,156 @@
+    1  mkdir prueba_git
+    2  cd prueba_git/
+    3  git init
+    4  cd ..
+    5  mkdir prueba2
+    6  cd prueba2
+    7  echo "# prueba_git" >> README.md
+    8  git init
+    9  git add README.md
+   10  git commit -m "first commit"
+   11  git branch -M main
+   12  git remote add origin https://github.com/JaimeNov1Ben1/prueba_git.git
+   13  git push -u origin main
+   14  git config --global user.email "jaime.novillo@tajamar365.com"
+   15  echo "# prueba_git" >> README.md
+   16  git init
+   17  git add README.md
+   18  git commit -m "first commit"
+   19  git branch -M main
+   20  git remote add origin https://github.com/JaimeNov1Ben1/prueba_git.git
+   21  git push -u origin main
+   22  touch archivo.txt
+   23  git add .
+   24  git commit -m "Commit de prueba"
+   25  git push
+   26  aqui empieza el examen
+   27  ================================================================
+   28  cd ..
+   29  mkdir examenJaimeNovilloBenito
+   30  cd examenJaimeNovilloBenito/
+   31  git clone https://github.com/JaimeNov1Ben1/examenJaimeNovillo.git
+   32  git touch prueba.txt
+   33  touch semecooloelgit.txt
+   34  git add .
+   35  ls
+   36  cd examenJaimeNovillo/
+   37  touch semecooloelgit.txt
+   38  git add .
+   39  git commit -m "Prueba commit"
+   40  git push
+   41  mkdir hola hola/hola1
+   42  ls -R
+   43  mkdir hola4/{hola5, hola8}
+   44  mkdir hola4/{hola5 hola8}
+   45  mkdir hola4 hola4/{hola5 hola8}
+   46  ls
+   47  rm -r hola
+   48  rm -r hola4
+   49  rm -r hola8
+   50  ls
+   51  rm -r hola8}
+   52  mkdir {hola1, hola2}
+   53  ls
+   54  man mkdir
+   55  help mkdir
+   56  info mkdir
+   57  man -k mkdir
+   58  help help
+   59  help mkdir
+   60  man mkdir
+   61  mkdir pruebapa pruebapa/1 2
+   62  ls
+   63  mkdir pruebapa/1, 2
+   64  ls
+   65  rm -r 2
+   66  rm -r hola2}/
+   67  rm -r pruebapa/
+   68  rm -r \{hola1\,/
+   69  ls
+   70  mkdir bigdata_pipeline_project bigdata_pipeline_project/data bigdata_pipeline_project/data/raw bigdata_pipeline_project/data/processed bigdata_pipeline_project/data/raw/streaming bigdata_pipeline_project/data/raw/batch  bigdata_pipeline_project/data/archive  bigdata_pipeline_project/etl bigdata_pipeline_project/etl/extract bigdata_pipeline_project/etl/transform bigdata_pipeline_project/etl/load  bigdata_pipeline_project/pipelines bigdata_pipeline_project/pipelines/airflow
+   71  ls -R
+   72  tree
+   73  apt install tree
+   74  mkdir bigdata_pipeline_project/pipelines/spark  bigdata_pipeline_project/notebooks  bigdata_pipeline_project/src bigdata_pipeline_project/src/ingestion bigdata_pipeline_project/src/quality bigdata_pipeline_project/src/utils bigdata_pipeline_project/config bigdata_pipeline_project/schemas bigdata_pipeline_project/logs bigdata_pipeline_project/tests bigdata_pipeline_project/outputs
+   75  ls -R
+   76  mkdir bigdata_pipeline_project/data/processed/bronze bigdata_pipeline_project/data/processed/silver bigdata_pipeline_project/data/processed/gold
+   77  ls -R
+   78  ls
+   79  cat "# Big Data Pipeline Project - Data Engineering" > README.md 
+   80  "# Big Data Pipeline Project - Data Engineering" > README.md 
+   81  cat 'hola'
+   82  nano README.md 
+   83  cat README.md 
+   84  nano requirements.txt
+   85  ls
+   86  ls -lHa
+   87  ls .git
+   88  nano .gitignore
+   89  git add .
+   90  git commit -m "Pregunta 2, ej 1"
+   91  git push
+   92  cd bigdata_pipeline_project/
+   93  touch config/database.yaml
+   94  touch config/spark.conf
+   95  ls config/
+   96  cd ..
+   97  cat README.md
+   98  cat requirements.txt 
+   99  ls
+  100  cd bigdata_pipeline_project/
+  101  ls
+  102  cd data/raw/
+  103  cd batch/
+  104  touch sales_2024_Q1.csv sales_2024_Q2.csv customers.json
+  105  ls
+  106  cd ../streaming/
+  107  touch events_01.json events_02.json
+  108  cd ../..
+  109  ls
+  110  cd ..
+  111  ls
+  112  cd logs
+  113  touch pipeline_2024-01-15.log pipeline_2024-02-20.log
+  114  ls
+  115  cat pipeline_2024-01-15.log >> "hola"
+  116  cat pipeline_2024-01-15.log
+  117  ls
+  118  rm hola 
+  119  cat "hola" >> pipeline_2024-01-15.log
+  120  man cat
+  121  cat "hola"
+  122  se me ha ido
+  123  echo "[INFO] ETL Pipeline started
+[INFO] Processing 500,000 records
+[SUCCESS] Pipeline completed" >> pipeline_2024-01-15.log
+  124  cat pipeline_2024-01-15.log
+  125  ls -R *.log
+  126  cd ..
+  127  ls -R *.log
+  128  ls -R --file-type log
+  129  ls -R . --file-type 
+  130  ls -R . --file-type log
+  131  ls -R ./*.log
+  132  ls -lHaR ./*.log
+  133  ls -lHaR 
+  134  ls -lHaR | grep *.log
+  135  ls -lHaR 
+  136  ls -lHaR ./*/*.log
+  137  ls -lHaR ./*/*.csv
+  138  cd data
+  139  cd raw/batch/
+  140  cp sales_2024_Q1.csv ../../processed/bronze/
+  141  ls ../../processed/bronze/
+  142  cp ../../processed/bronze/sales_2024_Q1.csv ../../processed/silver/sales_2024_Q1_validated.csv
+  143  ls ../../processed/silver/
+  144  cd ../..
+  145  cp raw/streaming/*.json archive/
+  146  ls processed/bronze/
+  147  ls processed/silver/
+  148  ls archive/
+  149  git add .
+  150  git commit -m "Entrega posible"
+  151  git push
+  152  cd ../..
+  153  ls
+  154  history > historial_linux.txt
